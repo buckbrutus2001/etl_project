@@ -1,3 +1,11 @@
-What are your data sources:
-What transformations:
-Where is data going to loaded:
+1. What are your data sources:
+
+Zombie costume data (item name, price and img url) on Amazon and Party City
+
+2. What transformations:
+
+Transform search results (HTML) into dicts 
+
+3. Where is data going to loaded:
+
+Load into a Mongo DB
