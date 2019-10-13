@@ -1,8 +1,9 @@
 1. What are your data sources:
 
 Zombie costume data (item name, price and img url) on Amazon and Party City
+5 data elements
 
-2. What transformations:
+1. What transformations:
 
 Transform search results (HTML) into dicts 
 
