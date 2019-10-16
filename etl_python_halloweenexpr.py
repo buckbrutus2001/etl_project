@@ -1,6 +1,7 @@
 # Dependencies
 from bs4 import BeautifulSoup
 import requests
+import datetime
 
 # Import our pymongo library, which lets us connect our Flask app to our Mongo database.
 import pymongo
@@ -62,7 +63,8 @@ for result in results:
                     'product':title,
                     'url':url,
                     'image':image,
-                    'price':price
+                    'price':price,
+                    'create_date':datetime.datetime.utcnow()
                 }
             ]
         )     
